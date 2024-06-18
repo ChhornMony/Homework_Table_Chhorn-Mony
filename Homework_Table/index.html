@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chhorn Mony</title>
+    <style>
+        
+        .name{
+            font-family: sans-serif;
+            color: #00377e;
+           
+        }
+        .name-col{
+            color: #00377e;
+        }
+        .name-table{
+            color: aliceblue;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        marquee{
+            height: auto;
+            display: flex;
+            align-items: center;
+            border-top: 2px solid #00377e;
+            border-bottom: 2px solid #00377e;     
+        }
+        .row-2{
+            color: whitesmoke;
+
+        }
+        .row{
+            font-family: sans-serif;
+        }
+        .row-col{
+            color: #00377e;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        
+        <!-- Navbar -->
+       
+        <marquee 
+        behavior="scroll" 
+        direction="right" 
+        vspace="30px" 
+        hspace="200px" 
+        height="100px" 
+        width="1200px" 
+        scrollamount="10px"
+        loop="99999999999">
+        <h1 class="name" >Topic: Basic HTML Table &nbsp; | &nbsp; Name: Chhorn Mony</h1>
+        </marquee>
+        
+        <!-- Table -->
+       
+        <table border="1px" rules="all" cellpadding="10px">
+            <thead>
+                <tr bgcolor="#415a77">
+                    <th width="100px" class="name-table">Level 1</th>
+                    <th width="150px" class="name-table">Level 2</th>
+                    <th width="125px" class="name-table">Level 3</th>
+                    <th width="150px" class="name-table">Info</th>
+                    <th width="80px"class="name-table">Name</th>
+                </tr>  
+            </thead> 
+            <tbody>
+                <tr class="row" align="center">
+                    <td class="name-col" rowspan="6" bgcolor="#e0e1dd">System</td>
+                    <td class="name-col" rowspan="4" bgcolor="#e0e1dd">System Apps</td>
+                    <td class="name-col" rowspan="3" bgcolor="#e0e1dd">SystemEvn</td>
+                    <td class="row-2" bgcolor="#9d0208">App Test</td>
+                    <td class="row-2" bgcolor="#9d0208">Foo</td>
+                </tr>
+                <tr class="row" align="center" bgcolor="#ced4da">
+                    <td class="row-col">App Memory</td>
+                    <td class="row-col">Foo</td>
+                </tr>
+                <tr class="row" align="center" >
+                    <td class="row-col">App Test</td>
+                    <td class="row-col">Bar</td>
+                </tr>
+                <tr class="row" align="center">
+                    <td class="name-col" bgcolor="#e0e1dd">SystemEnv2</td>
+                    <td class="row-col" bgcolor="#ced4da">App Test</td>
+                    <td class="row-col" bgcolor="#ced4da">Bar</td>
+                </tr>
+                <tr class="row" align="center" >
+                    <td class="name-col" rowspan="2" bgcolor="#e0e1dd">System Memory</td>
+                    <td class="name-col" rowspan="2" bgcolor="#e0e1dd">Memory Test</td>
+                    <td class="row-col">Memory Func</td>
+                    <td class="row-col">Foo</td>
+                </tr>
+                <tr class="row" align="center" bgcolor="#ced4da">
+                    <td class="row-col">Apes Test</td>
+                    <td class="row-col">Foo</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
